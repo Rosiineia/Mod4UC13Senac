@@ -30,8 +30,15 @@ export default function App() {
       case '/': 
         setCurrentNumber((fistNumber - lastNumber).toString())
         return
+
+        case '%':
+          return
     }
   }
+
+  //porcentagem
+
+  
 
   function handleInput(buttonPressed){
     console.log(buttonPressed) // Mostra no Console a tecla pressionada
